@@ -6,13 +6,14 @@ We can create, edit or delete tenant properties.
 
 Only users with Tenant Admin Role are allowed to managed tenant properties.
  
-
+### User without Tenant Admin Role got this message
+![tenant properties](/assets/TenantProperties5.jpg)
 
 ![tenant properties](/assets/TenantProperties1.jpg)
 ![tenant properties](/assets/TenantProperties2.jpg)
 ![tenant properties](/assets/TenantProperties3.jpg)
 ![tenant properties](/assets/TenantProperties4.jpg)
-![tenant properties](/assets/TenantProperties5.jpg)
+
 
 
 ## Used SharePoint Framework Version 
