@@ -8,7 +8,7 @@ Only users with Tenant Admin Role are allowed to managed tenant properties.
  
 
 
-![tenant properties](\assets\TenantProperties1.jpg)
+![tenant properties](.\assets\TenantProperties1.jpg)
 ![tenant properties](\assets\TenantProperties2.jpg)
 ![tenant properties](\assets\TenantProperties3.jpg)
 ![tenant properties](\assets\TenantProperties4.jpg)
