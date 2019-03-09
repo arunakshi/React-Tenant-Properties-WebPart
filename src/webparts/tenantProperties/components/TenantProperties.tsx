@@ -141,18 +141,20 @@ export default class TenantProperties extends React.Component<ITenantPropertiesP
       if (isGlobalAdmin) {
         // Get Tenant Properties
         const properties: ITenantProperty = await this.spService.getTenantProperties();
-        const keys: string[] = Object.keys(properties);
-        keys.map((key: string): any => {
-          const property: ITenantProperty = properties[key];
-          this.items.push(
-            {
-              key: key,
-              tenantPropertyValue: property.Value,
-              tenantPropertyDescription: property.Description,
-              tenantPropertyComment: property.Comment
-            }
-          );
-        });
+        if (properties) {
+          const keys: string[] = Object.keys(properties);
+          keys.map((key: string): any => {
+            const property: ITenantProperty = properties[key];
+            this.items.push(
+              {
+                key: key,
+                tenantPropertyValue: property.Value,
+                tenantPropertyDescription: property.Description,
+                tenantPropertyComment: property.Comment
+              }
+            );
+          });
+        }
         this.setState({ items: this.items, isLoading: false, disableCommandOption: true });
       } else {
         this.setState({
