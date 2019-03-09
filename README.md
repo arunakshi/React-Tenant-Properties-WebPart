@@ -4,9 +4,9 @@
 This web part allows tenant administrators to manage tenant properties through a graphical interface.  
 We can create, edit or delete tenant properties.
 
-Only users with Tenant Admin Role are allowed to managed tenant properties.    
+Only users with Tenant Admin Role are allowed to managed tenant properties.      
 #### User without Tenant Admin Role got this message
-![tenant properties](/assets/TenantProperties5.jpg)   
+![tenant properties](/assets/TenantProperties5.jpg)
 #### List tenant properties
 ![tenant properties](/assets/TenantProperties1.jpg)
 
@@ -16,7 +16,7 @@ Only users with Tenant Admin Role are allowed to managed tenant properties.
 #### Edit tenant property
 ![tenant properties](/assets/TenantProperties3.jpg)
 
-##### Delete tenant property
+#### Delete tenant property
 ![tenant properties](/assets/TenantProperties4.jpg)
 
 
