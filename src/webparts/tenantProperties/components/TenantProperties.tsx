@@ -206,7 +206,6 @@ export default class TenantProperties extends React.Component<ITenantPropertiesP
               :
               <div style={{ marginBottom: 10 }}>
                 <CommandBar
-                  className={styles["ms-CommandBarItem-commandText"]}
                   items={[
                     {
                       key: 'newItem',

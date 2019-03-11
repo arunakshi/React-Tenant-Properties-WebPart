@@ -23,7 +23,6 @@ export default class spservices {
 
     this.onInit();
   }
-
   // OnInit Function
   private async onInit() {
     this.appCatalogUrl = await this.getAppCatalogUrl();
